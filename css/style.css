@@ -2,7 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/* header */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+
 
 .header-top {
   background-color: rgb(229, 121, 230);
@@ -17,6 +40,12 @@
   margin: 10px auto;
 
 }
+
+
+
+
+
+/* main */
 
 .color {
   background-color: rgb(0, 135, 254);
@@ -38,12 +67,7 @@ section {
   height: 500px;
 }
 
-.container {
-  width: 80%;
-  max-width: 1200px;
-  min-width: 500px;
-  margin: 0 auto;
-}
+
 
 .col {
   float: left;
@@ -51,11 +75,7 @@ section {
   margin-bottom: 1%;
 }
 
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
-}
+
 
 .col.left {
   margin-right: 1%;

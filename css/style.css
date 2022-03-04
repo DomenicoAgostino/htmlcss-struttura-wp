@@ -18,3 +18,63 @@
 
 }
 
+.color {
+  background-color: rgb(0, 135, 254);
+
+}
+
+.col {
+  background-color: rgb(171, 207, 231);
+}
+
+aside {
+  width: 10%;
+  height: 500px;
+  
+}
+
+section {
+  width: 69%;
+  height: 500px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col.left {
+  margin-right: 1%;
+}
+
+.col.right {
+  margin-left: 1%;
+}
+
+.fine-block {
+  height: 100px;
+  background-color: red;
+}
+
+footer {
+  background: brown;
+  height: 70px;
+}
+
+
+
+
+
+

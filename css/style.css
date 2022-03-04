@@ -13,8 +13,8 @@
 .second-block {
   background-color: rgb(225, 214, 122);
   height: 400px;
-  width: 800px;
-  margin: 10px;
+  width: 1200px;
+  margin: 10px auto;
 
 }
 
@@ -28,13 +28,13 @@
 }
 
 aside {
-  width: 10%;
+  width: 19%;
   height: 500px;
   
 }
 
 section {
-  width: 69%;
+  width: 60%;
   height: 500px;
 }
 
@@ -47,6 +47,8 @@ section {
 
 .col {
   float: left;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .clearfix::after {
@@ -57,6 +59,8 @@ section {
 
 .col.left {
   margin-right: 1%;
+
+
 }
 
 .col.right {
@@ -65,12 +69,17 @@ section {
 
 .fine-block {
   height: 100px;
-  background-color: red;
+  background-color: rgb(171, 207, 231);
+  
 }
 
 footer {
-  background: brown;
-  height: 70px;
+  background: rgb(136, 1, 254);
+  height: 40px;
+}
+
+div.container {
+  margin-bottom: 5px;
 }
 
 
